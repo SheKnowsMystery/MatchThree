@@ -1,0 +1,20 @@
+{
+	"$schema": "https://raw.githubusercontent.com/microsoft/vcpkg-tool/main/docs/vcpkg.schema.json",
+	"builtin-baseline": "b7601ed37e1e1ce11a4f61b4b94a23e39d465f1d",
+	"name": "slots",
+	"version": "1.0.0",
+	"dependencies": [
+		"sdl2",
+		"sdl2-image"
+	],
+	"overrides": [
+		{
+			"name": "sdl2",
+			"version": "2.30.10"
+		},
+		{
+			"name": "sdl2-image",
+			"version": "2.8.2"
+		}
+	]
+}
